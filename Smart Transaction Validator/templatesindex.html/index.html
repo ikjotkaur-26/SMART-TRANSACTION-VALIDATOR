@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Transaction Validator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>💳 Smart Transaction Validator</h1>
+    <p>Upload your transaction CSV for validation & cleaning</p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Validate & Download</button>
+    </form>
+
+</div>
+
+</body>
+</html>
